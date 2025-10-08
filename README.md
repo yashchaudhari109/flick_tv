@@ -11,14 +11,9 @@ A functional and visually appealing video streaming application prototype for An
 
 Here is a short demonstration of the application's user interface and core functionality, including the Netflix-style home screen and the reels-style video player.
 
-*(**Instructions:** The demo video `assets/flick_tv_demo.mp4` is included in the repository. Replace the placeholders below with your GitHub username and repository name to embed the video directly.)*
-
 ```markdown
-![App Demo Video](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/assets/flick_tv_demo.mp4)```
+![App Demo Video](https://raw.githubusercontent.com/yashchaudahri109/flick_tv/main/assets/flick_tv_demo.mp4)```
 
-**Tip:** For auto-playing demos, you can convert the MP4 to a GIF and embed it as an image.
-
----
 
 ## ✨ Features
 
@@ -42,45 +37,6 @@ Here is a short demonstration of the application's user interface and core funct
 *   **Video Player:** `better_player`
 *   **Data Handling:** Local JSON parsing
 
-### Project Structure
-
-The project maintains a strict, scalable structure to ensure clean and maintainable code.
-
-```
-lib/
-├── app.dart
-├── main.dart
-│
-├── core/
-│   ├── app_theme.dart
-│   ├── constants/
-│   │   ├── app_constants.dart
-│   │   └── asset_constants.dart
-│   └── navigation/
-│       └── app_router.dart
-│
-├── data/
-│   ├── models/
-│   │   └── video_model.dart
-│   ├── providers/
-│   │   └── local_data_provider.dart
-│   └── repositories/
-│       └── video_repository.dart
-│
-└── presentation/
-├── blocs/
-│   └── home/
-│       ├── home_bloc.dart
-│       ├── home_event.dart
-│       └── home_state.dart
-├── pages/
-│   ├── home_page.dart
-│   └── video_player_page.dart
-└── widgets/
-├── carousel_row.dart
-├── single_video_player_item.dart
-└── video_thumbnail_card.dart
-```
 
 ---
 
@@ -88,21 +44,21 @@ lib/
 
 ### Prerequisites
 
-*   Flutter SDK (version 3.x)
-*   An Android device or emulator
+*   Flutter SDK 3.35.4
+*   Dart 3.9.2
 
 ### ⚠️ Important Compatibility Note
 
-The original assignment specified using `better_player: ^0.0.84`. This version is **not compatible** with modern Flutter/Android Gradle builds due to a missing `namespace` declaration, which causes a build failure.
+The assignment required using **`better_player: ^0.0.84`**. This version is incompatible with modern Android Gradle builds and will cause a build failure due to a missing `namespace` declaration in its native Android configuration.
 
-**Solution Implemented:** This project has been updated to use **`better_player: ^0.0.99`** in the `pubspec.yaml` file. This version resolves the compatibility issues. No manual changes to the library are needed; simply follow the build instructions below.
+**Solution Implemented:** Instead of upgrading the package, the library's source files were **manually patched** to resolve the issue while adhering to the specified version.
 
 ### Installation & Running
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/yashchaudhari109/flick_tv.git
+    cd flick_tv
     ```
 
 2.  **Get dependencies:**
@@ -123,14 +79,9 @@ To build a release version of the APK, run the following command:
 flutter build apk --release
 ```
 
-The generated APK will be located at `build/app/outputs/flutter-apk/app-release.apk`.
-
----
 
 ## 📲 Download APK
 
 You can download and install the release APK directly from the link below.
 
-*(**Instructions:** Build the release APK using the command above. Upload the `app-release.apk` file to a service like Google Drive, Dropbox, or create a GitHub Release. **Make sure the link is public and directly downloadable.** Then, replace the placeholder.)*
-
-**[➡️ Download Flick TV APK]([YOUR_PUBLIC_APK_DOWNLOAD_LINK_HERE])**
+**[➡️ Download Flick TV APK](https://drive.google.com/file/d/1ITyQU7fJ7DD_3mdPUkQU7p29fEPk_nYs/view?usp=sharing)**
