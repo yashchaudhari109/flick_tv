@@ -11,10 +11,12 @@ A functional and visually appealing video streaming application prototype for An
 
 Here is a short demonstration of the application's user interface and core functionality, including the Netflix-style home screen and the reels-style video player.
 
+[![App Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-blue)](https://drive.google.com/file/d/1zmZuyeW6KH_jLyEhcm7azkjuXV36OhsC/view?usp=sharing)
 <video controls width="400">
-  <source src="https://raw.githubusercontent.com/yashchaudahri109/flick_tv/main/assets/flick_tv_demo.mp4" type="video/mp4">
+  <source src="https://drive.google.com/uc?export=download&id=1zmZuyeW6KH_jLyEhcm7azkjuXV36OhsC" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 ## ✨ Features
 
