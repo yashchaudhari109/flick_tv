@@ -11,7 +11,6 @@ A functional and visually appealing video streaming application prototype for An
 
 Here is a short demonstration of the application's user interface and core functionality, including the Netflix-style home screen and the reels-style video player.
 
-```markdown
 ![App Demo Video](https://raw.githubusercontent.com/yashchaudahri109/flick_tv/main/assets/flick_tv_demo.mp4)```
 
 
@@ -77,7 +76,7 @@ To build a release version of the APK, run the following command:
 
 ```bash
 flutter build apk --release
-```
+
 
 
 ## 📲 Download APK
