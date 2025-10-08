@@ -17,6 +17,10 @@ Here is a short demonstration of the application's user interface and core funct
   Your browser does not support the video tag.
 </video>
 
+### 📲 Download APK
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen)](https://drive.google.com/uc?export=download&id=1ITyQU7fJ7DD_3mdPUkQU7p29fEPk_nYs)
+
+
 
 ## ✨ Features
 
@@ -82,9 +86,3 @@ To build a release version of the APK, run the following command:
 flutter build apk --release
 
 
-
-## 📲 Download APK
-
-You can download and install the release APK directly from the link below.
-
-**[➡️ Download Flick TV APK](https://drive.google.com/file/d/1ITyQU7fJ7DD_3mdPUkQU7p29fEPk_nYs/view?usp=sharing)**
